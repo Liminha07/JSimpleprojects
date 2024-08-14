@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: lightslategrey;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayNumber{
+    height: 100px;
+    width: auto;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.classButton{
+    width: 80px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.classButton:hover{
+    transition: 200ms;
+    background-color: rgb(148, 147, 147);
+    cursor: pointer;
+}
